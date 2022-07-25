@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.2-rc.0/web3.min.js" 
+        integrity="sha512-REWiGZVmhU2S5eIov/DuNrsq4djWnPaAHSvXrbLLLaI0r/gW+wh1utIzxt0iB4IQLgXhNDj5mR0YMBjrkKhVMA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        
+        </script>
+
+    
+</head>
+<body>
+
+    <div id="registration" style="display: flex ;">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email"><br>
+        <input type="password" id="password" placeholder="password" required> <br>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required><br>
+
+        <input type="button" id="registerBtn" onclick="register()" >
+    </div>
+   
+    <div id="login" style="display: none;">
+
+        <input type="email" id="loginemail" placeholder="Email">
+        <input type="password" id="loginPassword" placeholder="password"><br>
+        <input type="button" id="loginBtn" >
+
+    </div>
+
+    <script src="assessment.js"></script>  
+ 
+    
+
+       
+
+</body>
+</html>
